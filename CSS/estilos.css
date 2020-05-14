@@ -1,0 +1,42 @@
+body {
+    background-image:
+   url('https://i.ibb.co/kS3D1Xy/Canva-Macbook- Pro-1.jpg');
+    background-size: auto 100vh; 
+    font-family:Arial;
+    background-size: auto 100vh;
+    filter:-webkit-backdrop-filter: blur(10px); /* Safari 9+ */
+    backdrop-filter: blur(10px); /* Chrome and Opera */
+  }
+  
+
+  .menu {
+    background-color: white;
+  }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .menu li {
+   list-style: none; 
+  }
+  
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .site-subtitle, 
+  .site-title {
+    color: whitesmoke;
+    text-align: center;
+  }
+  
+  .site-subtitle {
+   font-style: italic;
+  }
